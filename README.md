@@ -1,11 +1,44 @@
-## Tic Tac Toe
+# Tic Tac Toe
 
-A simple tic-tac-toe web based game......
+### A Simple tic-tac-toe web based game written in js html css......
 
-Modes :
-  
-  1. Easy -> Random values generated..
-  
-  2. Medium -> Rule Based System....
-  
-  3. Impossible -> Perfect AI based algorithm....
+#### Modes :
+
+1. ###### Easy :- Random values generated..
+
+2. ###### Medium :- Rule Based System....
+
+3. ###### Impossible :- Perfect AI based algorithm....
+
+## Preview
+
+![Desktop](assests/d-s.png)![Desktop](assests/d-g.png)
+![Mobile](assests/m-s.png)![Mobile](assests/m-g.png)
+
+## <u>License</u>
+
+```
+MIT License
+
+Copyright (c) 2020 Raja Ravi Prakash
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+```
