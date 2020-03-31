@@ -13,7 +13,7 @@
 ## Preview
 
 ![Desktop](assests/d-s.png)![Desktop](assests/d-g.png)
-![Mobile](assests/m-s.png)![Mobile](assests/m-g.png)
+![Mobile](assests/m-s.png)                                      ![Mobile](assests/m-g.png)
 
 ## <u>License</u>
 
