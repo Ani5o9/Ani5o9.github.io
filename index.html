@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8" />
+    <link rel="stylesheet" type="text/css" href="./css/boardStyle.css" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="My Personal Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ronin.codes/" />
+    <meta property="og:title" content="Ronin" />
+    <meta property="og:description" content="Tic Tac Toe" />
+    <meta
+      property="og:image"
+      content="https://previews.123rf.com/images/vectorchef/vectorchef1507/vectorchef150706551/42748220-tic-tac-toe-icon.jpg"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ronin.codes/" />
+    <meta property="twitter:title" content="Ronin" />
+    <meta property="twitter:description" content="Tic Tac Toe" />
+    <meta
+      property="twitter:image"
+      content="https://previews.123rf.com/images/vectorchef/vectorchef1507/vectorchef150706551/42748220-tic-tac-toe-icon.jpg"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Ronin" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script>
+      function h() {
+        //if (confirm("Do You Want to go Second??")) start(true);
+        //else
+        start(false);
+      }
+      function set(arg) {
+        var def = document.createElement("script");
+        if (arg == 1) {
+          def.setAttribute("src", "./js/medium.js");
+          document.body.appendChild(def);
+        } else if (arg == 2) {
+          def.setAttribute("src", "./js/main.js");
+          document.body.appendChild(def);
+        } else if (arg == 0) {
+          def.setAttribute("src", "./js/easy.js");
+          document.body.appendChild(def);
+        }
+        setTimeout(h, 500);
+      }
+    </script>
+    <div id="start">
+      <h1 style="color:white;">
+        Beat Me if you can in hard way...
+      </h1>
+      <div>
+        <button style="width: 200px;" onclick="set(0)">Easy</button>
+        <button style="width: 200px;" onclick="set(1)">Medium</button>
+        <button style="width: 200px;" onclick="set(2)">Impossible</button>
+      </div>
+    </div>
+    <div id="board" class="board">
+      <div class="turnBoard">
+        <button id="X" class="turn" disabled><h2>X</h2></button>
+        <button id="O" class="turn" disabled><h2>O</h2></button>
+      </div>
+      <div class="row">
+        <button id="0,0" onclick="move(0,0)" class="cell"></button>
+        <button id="0,1" onclick="move(0,1)" class="cell"></button>
+        <button id="0,2" onclick="move(0,2)" class="cell"></button>
+      </div>
+      <div class="row">
+        <button id="1,0" onclick="move(1,0)" class="cell"></button>
+        <button id="1,1" onclick="move(1,1)" class="cell"></button>
+        <button id="1,2" onclick="move(1,2)" class="cell"></button>
+      </div>
+      <div class="row">
+        <button id="2,0" onclick="move(2,0)" class="cell"></button>
+        <button id="2,1" onclick="move(2,1)" class="cell"></button>
+        <button id="2,2" onclick="move(2,2)" class="cell"></button>
+      </div>
+      <h4>Designed with ❤️ by Raja Ravi Prakash</h4>
+    </div>
+  </body>
+</html>
